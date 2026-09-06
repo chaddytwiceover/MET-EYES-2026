@@ -1,0 +1,6 @@
+{
+  "name": "MetEyes",
+  "description": "Explore The Met collection through the observant eyes of Gemini AI — curatorial intelligence, historical revelations, and fascinating facts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
