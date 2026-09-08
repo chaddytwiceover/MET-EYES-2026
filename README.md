@@ -7,8 +7,9 @@ run `npm start`.
 ## Vercel
 
 Import with the Vite preset and root `./`. The configuration builds `dist`
-and routes `/api/*` to the Express function. Vercel automatically sets
-`VERCEL=1`, which skips the local listener and Vite middleware.
+and routes `/api/*` to the Express function. The API adapter restores the
+captured path before Express handles it. Vercel automatically sets `VERCEL=1`,
+which skips the local listener and Vite middleware.
 
 Set `GEMINI_API_KEY` in Production and Preview for live AI answers.
 Without a key, the API returns fallback insights. Never prefix the key
